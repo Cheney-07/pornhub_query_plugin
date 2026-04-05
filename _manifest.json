@@ -1,0 +1,38 @@
+{
+  "manifest_version": 1,
+  "name": "pornhub_query",
+  "version": "1.0.0",
+  "description": "pornhub_query",
+  "author": {
+    "name": "jiangbei",
+    "url": "https://github.com/Cheney-07/pornhub_query_plugin"
+  },
+  "license": "GPL-3.0",
+  "host_application": {
+    "min_version": "0.11.6",
+    "max_version": "0.11.6"
+  },
+  "homepage_url": "https://github.com/Cheney-07/pornhub_query_plugin",
+  "repository_url": "https://github.com/Cheney-07/pornhub_query_plugin",
+  "keywords": [
+    "pornhub",
+    "query"
+  ],
+  "categories": [
+    "Data Analysis & Insights"
+  ],
+  "default_locale": "zh-CN",
+  "locales_path": "_locales",
+  "plugin_info": {
+    "is_built_in": false,
+    "plugin_type": "general",
+    "components": [
+      {
+        "type": "command",
+        "name": "pornhub_query",
+        "description": "pornhub_query"
+      }
+    ]
+  },
+  "id": "jiangbei.pornhub_query_plugin"
+}
